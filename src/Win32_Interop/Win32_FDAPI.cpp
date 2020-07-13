@@ -35,6 +35,8 @@
 #include "Win32_Error.h"
 #include "Win32_Assert.h"
 
+#include <system_error>
+
 using namespace std;
 
 #define CATCH_AND_REPORT()  catch(const std::exception &){::redisLog(REDIS_WARNING, "FDAPI: std exception");}catch(...){::redisLog(REDIS_WARNING, "FDAPI: other exception");}

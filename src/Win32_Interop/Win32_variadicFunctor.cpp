@@ -24,6 +24,7 @@
 
 #include "Win32_variadicFunctor.h"
 
+#include <system_error>
 #include <windows.h>
 #include <stdexcept>
 #include <map>
